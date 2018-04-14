@@ -39,6 +39,13 @@ h2{
     margin-top: 20px;
     height: 350px;
 }
+.cuadros2{
+    border:solid 1px grey;
+    border-style: 
+    padding: 10px;
+    margin-top: 20px;
+    height: 200px;
+}
 .padd{
     padding: 5px;
     font-size: 10px;
