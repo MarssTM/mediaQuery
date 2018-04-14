@@ -1,0 +1,82 @@
+/*
+    rojo: #ba1820;
+    font-family: Times New Roman;
+*/
+body{
+    font-family: Times New Roman;
+}
+h2{
+    text-align: center;
+    margin-top: 30px;
+}
+.red{
+    color: #ba1820;
+}
+.view{
+    color: #ba1820;
+    font-family: Times New Roman;
+}
+.cursive{
+    font-family: Times New Roman;
+    font-style: italic;
+    text-align: center;
+    margin-top: 5px;
+}
+.mayus{
+    text-align: center;
+    font-style: black;
+    font-family: Times New Roman;
+}
+.cabeza{
+    text-align: center;
+    font-size: 35px;
+    color: #ba1820;
+}
+.cuadros{
+    border:solid 1px red;
+    border-style: 
+    padding: 10px;
+    margin-top: 20px;
+    height: 350px;
+}
+.padd{
+    padding: 5px;
+    font-size: 10px;
+    font-family: Times New Roman !important;
+}
+.capital{
+    font-size: 35px;
+    color: #ba1820;
+    font-family: Times New Roman !important;
+}
+@media screen and (max-width:480px){
+    h1{
+        text-align:center;
+        color:purple;
+        background-color: yellow;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:767px){
+    h1{
+        text-align:center;
+        color:red;
+        background-color: blue;
+    }
+}
+    
+@media screen and (min-width:768px) and (max-width:1023px){
+    h1{
+        text-align:center;
+        color:pink;
+        background-color: aqua;
+    }
+}
+
+@media all and (min-width:1024px){
+    h1{
+        text-align:center;
+        color: white;
+        background-color:black;
+    }
+}
